@@ -18,7 +18,7 @@ class B extends A{
         return super.calculateBill();
     }
 }
-class Bill{
+class Ass5{
     public static void main(String a[]){
         B b1 = new B();
         System.out.println("Bill: " + b1.calculateBill());

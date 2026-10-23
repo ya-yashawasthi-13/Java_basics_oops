@@ -1,8 +1,8 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-class Ass8{
-	int linearSearch(int[] array, int value) {
+class Ass7{
+	static int linearSearch(int[] array, int value) {
 		for (int i = 0; i < array.length; i++) {
 			if (array[i] == value) {
 				return i;
@@ -11,7 +11,7 @@ class Ass8{
 		return -1;
 	}
 
-	int binarySearch(int[] array, int value) {
+	static int binarySearch(int[] array, int value) {
 		int first = 0;
 		int last = array.length - 1;
 

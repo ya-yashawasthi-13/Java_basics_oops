@@ -55,7 +55,7 @@ class Student {
     }
 }
 
-class Main {
+class Ass3 {
     public static void main(String[] args) {
         Student s1 = new Student(101, "Aman", "CSE", 88, 92, 90);
         Student s2 = new Student(102, "Riya", "ECE", 76, 81, 72);
